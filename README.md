@@ -1,6 +1,8 @@
 # datascience-projects
 ## 1. Heartattack data
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Blausen_0463_HeartAttack.png/675px-Blausen_0463_HeartAttack.png" alt="Heart picture">
+
 <b> Based on a kaggle dataset </b>: https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset <br>
 <b> Data </b>: <br>
     <BLOCKQUOTE>
@@ -29,5 +31,5 @@
     </BLOCKQUOTE>
 
 <b> Goal </b>: Train a classifier to predict which patient probably had a hearattack.  <br>
-<b> Approach </b>: I evaluated different classifiers to see, which of them yields the best classification results. Furthermore, to find out why the best performing classifier worked as it did, the python libraries eli5 and pdpbox where used.
+<b> Approach </b>: I evaluated different classifiers to see, which of them yields the best classification results. Furthermore, to find out why the best performing classifier worked as it did, the python libraries eli5 and pdpbox where used. <br>
 <b> Result </b>: The dataset is best classified by a logistic regression with an average accuracy of 0.854138 (test_size = 0.2, cv = 10, no grid search). Counterintuively, not high blood pressure, high blood sugar or high cholesterine values, but the attribute count_blood_vessels hast the highest impact onto the classification.
