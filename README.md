@@ -26,7 +26,7 @@
         Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria <br>
         </BLOCKQUOTE>
     thalach: maximum heart rate achieved <br>
-    output: 0= less chance of heart attack 1= more chance of heart attack <br>
+    output: 0= yes 1= no <br>
     </BLOCKQUOTE>
 
 <b> Goal </b>: Train a classifier to predict which patient probably had a hearattack.  <br>
