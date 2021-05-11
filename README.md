@@ -1,7 +1,7 @@
 # datascience-projects
 ## 1. Heartattack data
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Blausen_0463_HeartAttack.png/675px-Blausen_0463_HeartAttack.png" width="400" height="600" alt="Heart picture">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Blausen_0463_HeartAttack.png/675px-Blausen_0463_HeartAttack.png" width="200" height="400" alt="Heart picture">
 
 <b> Based on a kaggle dataset </b>: https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset <br>
 <b> Data </b>: <br>
