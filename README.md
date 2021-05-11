@@ -3,6 +3,7 @@
 
 <b> Based on a kaggle dataset </b>: https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset <br>
 <b> Data </b>: <br>
+    <BLOCKQUOTE>
     Age : Age of the patient <br>
     Sex : Sex of the patient <br>
     exang: exercise induced angina (1 = yes; 0 = no) <br>
@@ -21,6 +22,7 @@
         Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria <br>
     thalach: maximum heart rate achieved <br>
     output: 0= less chance of heart attack 1= more chance of heart attack <br>
+    </BLOCKQUOTE>
 
 <b> Goal </b>: Train a classifier to predict which patient probably had a hearattack.  <br>
 <b> Approach </b>: I evaluated different classifiers to see, which of them yields the best classification results. Furthermore, to find out why the best performing classifier worked as it did, the python libraries eli5 and pdpbox where used.
