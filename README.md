@@ -1,9 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 40%
+      }
+      .text {
+        font-size: 20px;
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Blausen_0463_HeartAttack.png/675px-Blausen_0463_HeartAttack.png" width="200" height="400" alt="Heart picture"> 
+      </div>
+      <div class="text">
 # datascience-projects
 ## 1. Heartattack data
-<div>
-    <p style="float: right"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Blausen_0463_HeartAttack.png/675px-Blausen_0463_HeartAttack.png" width="200" height="400" alt="Heart picture"> </p>
 
-<p>
 <b> Based on a kaggle dataset </b>: https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset <br>
 <b> Data </b>: <br>
     <BLOCKQUOTE>
@@ -34,5 +58,8 @@
 <b> Goal </b>: Train a classifier to predict which patient probably had a hearattack.  <br>
 <b> Approach </b>: I evaluated different classifiers to see, which of them yields the best classification results. Furthermore, to find out why the best performing classifier worked as it did, the python libraries eli5 and pdpbox where used. <br>
 <b> Result </b>: The dataset is best classified by a logistic regression with an average accuracy of 0.854138 (test_size = 0.2, cv = 10, no grid search). Counterintuively, not high blood pressure, high blood sugar or high cholesterine values, but the attribute count_blood_vessels hast the highest impact onto the classification.
-</p>
-</div>
+
+      </div>
+    </div>
+  </body>
+</html>
