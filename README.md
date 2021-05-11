@@ -1,8 +1,8 @@
 # datascience-projects
 ## 1. Heartattack data
 
-Based on a kaggle dataset: https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset <br>
-Data: <br>
+<b> Based on a kaggle dataset </b>: https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset <br>
+<b> Data </b>: <br>
     Age : Age of the patient <br>
     Sex : Sex of the patient <br>
     exang: exercise induced angina (1 = yes; 0 = no) <br>
@@ -22,6 +22,6 @@ Data: <br>
     thalach: maximum heart rate achieved <br>
     output: 0= less chance of heart attack 1= more chance of heart attack <br>
 
-Goal: Train a classifier to predict which patient probably had a hearattack.  <br>
-Approach: I evaluated different classifiers to see, which of them yields the best classification results. Furthermore, to find out why the best performing classifier worked as it did, the python libraries eli5 and pdpbox where used.
+<b> Goal </b>: Train a classifier to predict which patient probably had a hearattack.  <br>
+<b> Approach </b>: I evaluated different classifiers to see, which of them yields the best classification results. Furthermore, to find out why the best performing classifier worked as it did, the python libraries eli5 and pdpbox where used.
 
