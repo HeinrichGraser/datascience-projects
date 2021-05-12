@@ -8,7 +8,7 @@
     Age : Age of the patient <br>
     Sex : Sex of the patient <br>
     exang: exercise induced angina (1 = yes; 0 = no) <br>
-    ca: number of major vessels (0-3) <br>
+    ca: number of major vessels (0-3) (renamed to count_blood_vessels) <br>
     cp: Chest Pain type chest pain type <br>
         <BLOCKQUOTE>
         Value 1: typical angina <br>
