@@ -44,7 +44,7 @@
     id: id <br>
     gender: gender of patient <br>
     age: age of patient <br>
-    hyptertension: chronically increased blood pressure (1/0) <br> <br>
+    hyptertension: chronically increased blood pressure (1/0) <br> 
     heart_disease: patient has heart disease (1/0) <br>
     ever_married: patient was/is married (Yes/No) <br>
     work_type: the work type of the patient (private/Self_employed/Govt_job/children/Never_worked)  <br>     
