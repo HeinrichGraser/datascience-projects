@@ -53,7 +53,7 @@
     bmi: body-mass index
     smoking_status: the smoking status of the patient (formerly smoked/never smoked/smokes/Unknown)
     stroke: had stroke (1/0)
-
+    </BLOCKQUOTE>
 
 <b> Goal </b>: Train a classifier to predict which patient had a stroke  <br>
 <b> Approach </b>: I evaluated different classifiers to see, which of them yields the best classification results. Furthermore, to find out why the best performing classifier worked as it did, the python library eli5 was used. <br>
