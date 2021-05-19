@@ -41,17 +41,17 @@
 <b> Also based on a kaggle dataset </b>: https://www.kaggle.com/fedesoriano/stroke-prediction-dataset <br>
 <b> Data </b>: <br>
     <BLOCKQUOTE>
-    id: id
-    gender: gender of patient
-    age: age of patient
-    hyptertension: chronically increased blood pressure (1/0)
-    heart_disease: patient has heart disease (1/0)
-    ever_married: patient was/is married (Yes/No)
-    work_type: the work type of the patient (private/Self_employed/Govt_job/children/Never_worked)      
-    Residence_type: where the patient lives (Urban/Rural)
-    avg_glucose_level: avg. blood sugar level
-    bmi: body-mass index
-    smoking_status: the smoking status of the patient (formerly smoked/never smoked/smokes/Unknown)
+    id: id <br>
+    gender: gender of patient <br>
+    age: age of patient <br>
+    hyptertension: chronically increased blood pressure (1/0) <br> <br>
+    heart_disease: patient has heart disease (1/0) <br>
+    ever_married: patient was/is married (Yes/No) <br>
+    work_type: the work type of the patient (private/Self_employed/Govt_job/children/Never_worked)  <br>     
+    Residence_type: where the patient lives (Urban/Rural) <br>
+    avg_glucose_level: avg. blood sugar level <br>
+    bmi: body-mass index <br>
+    smoking_status: the smoking status of the patient (formerly smoked/never smoked/smokes/Unknown) <br>
     stroke: had stroke (1/0)
     </BLOCKQUOTE>
 
