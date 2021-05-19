@@ -35,8 +35,6 @@
 
 
 
-
-# datascience-projects
 ## 2. Stroke data
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/MCA_Territory_Infarct.svg/491px-MCA_Territory_Infarct.svg.png" width="250" height="400" alt="Heart picture"> 
